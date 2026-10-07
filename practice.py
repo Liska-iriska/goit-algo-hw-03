@@ -23,7 +23,7 @@ def get_numbers_ticket(min, max, quantity):
         list_items = num
         return list_items
     else:
-        return list_items
+        return []
     
 def normalize_phone(phone_number):
     numb = phone_number.strip()
